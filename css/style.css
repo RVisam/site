@@ -1,0 +1,388 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-visam > {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.textoprincipal {
+  color: #2761a0;
+}
+
+.textosecundario {
+  color: #69954b;
+}
+
+.textoclaro {
+  color: #f3f4f5;
+}
+
+.textoescuro {
+  color: #282f34;
+}
+
+.fundoazulescuro {
+  background-color: #061e6d;
+}
+
+.fundoazulclaro {
+  background-color: #072380;
+}
+
+.fundoprimario {
+  background-color: #2761a0;
+}
+
+.fundosecundario {
+  background-color: #69954b;
+}
+
+.btn-whatsapp {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #45c855;
+  --bs-btn-border-color: #45c855;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #103928;
+  --bs-btn-hover-border-color: #103928;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-principal {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #072380;
+  --bs-btn-border-color: #072380;
+  --bs-btn-hover-color: #072380;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #072380;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #072380;
+  --bs-btn-active-border-color: #072380;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-servico {
+  --bs-btn-color: #072380;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #072380;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #072380;
+  --bs-btn-hover-border-color: #ffffff;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #072380;
+  --bs-btn-active-border-color: #072380;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand img {
+  max-height: 80px;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin-right: 20px;
+  padding: 20px 0px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar .navbar-nav {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #69954b;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #072380;
+  background-color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  .navbar .navbar-nav {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 0;
+    top: 150%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    top: 100%;
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+  }
+}
+
+.dropdown-menu :hover {
+  color: #072380;
+  background-color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .hide-on-small {
+    max-width: 100px;
+  }
+}
+
+.mapacont {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.mapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+}
+
+.icone {
+  max-height: 48px;
+}
+
+.noticiaind {
+  position: relative;
+  display: block;
+}
+
+.noticiaind .textonoticia {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 100px !important;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.noticiaind:hover .textonoticia {
+  opacity: 1;
+  padding-bottom: 20px !important;
+}
+
+.servicos {
+  max-height: 128px;
+  filter: grayscale(1);
+}
+
+.servicos:hover {
+  filter: none;
+}
+
+.servicoind {
+  position: relative;
+  display: block;
+}
+
+.servicoind .textoservico {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 100px !important;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.servicoind:hover .textoservico {
+  opacity: 1;
+  padding-bottom: 20px !important;
+}
+
+/*** Dados / Funcionamento ***/
+.dados {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imagens/Escorpiao.png) center center no-repeat;
+  background-size: cover;
+}
+
+.funcionamento {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../imagens/noticias/S10.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.funcionamento .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.15);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.funcionamento .table {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.funcionamento .table td {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 1rem;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.funcionamento .table tr:last-child td {
+  border: none;
+}
+
+#voltar {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #072380; /* Set a background color */
+  color: #ffffff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#voltar:hover {
+  background-color: #ffffff; /* Add a dark-grey background on hover */
+  color: #072380;
+}
+
+.quadrados {
+  max-height: 30vh;
+}
+
+.servicoq:hover {
+  background-color: #092a58;
+}
+
+.faleq:hover {
+  background-color: #235809;
+}
+
+.acervoq:hover {
+  background-color: #5e4082;
+}
+
+.duvidasq:hover {
+  background-color: #931212;
+}
