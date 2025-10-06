@@ -166,7 +166,7 @@ body {
 
 .navbar .navbar-nav .nav-link {
   margin-right: 20px;
-  padding: 20px 0px;
+  padding: 20px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -369,20 +369,4 @@ body {
 
 .quadrados {
   max-height: 30vh;
-}
-
-.servicoq:hover {
-  background-color: #092a58;
-}
-
-.faleq:hover {
-  background-color: #235809;
-}
-
-.acervoq:hover {
-  background-color: #5e4082;
-}
-
-.duvidasq:hover {
-  background-color: #931212;
 }
